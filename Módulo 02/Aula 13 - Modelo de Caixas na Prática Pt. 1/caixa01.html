@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            /*
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+            */
+
+            border: 10px solid red;
+
+            /*
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+            
+            /* Aqui você pode por 4 valores, 2 valores (o primeiro é cima e baixo e o segundo esquerda e direita) ou um valor só que serve para os 4 lados caso o valor seja igual */
+            padding: 10px;
+            
+            /*
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            */
+
+            /* Mesma regra do padding, porém pode receber valor "auto" que é usado para alinhar caixas na horizontal */
+            margin: 20px auto 40px auto;
+
+            /*
+            outline-width: 10px;
+            outline-style: dashed;
+            outline-color: salmon;
+            */
+            
+            outline: 10px dotted salmon;
+        }
+
+        a {
+            border-width: 10px;
+            border-style: solid;
+            border-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box level</h1>
+    <p>Parágragos também são exemplos de box level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <!--
+    <audio src="midias/happy-mistake.mp3" controls autoplay></audio>
+    -->
+    <audio preload="metadata" controls autoplay>
+        <source src="midias/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midias/happy-mistake.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/happy-mistake.mp3">
+            clique auqi para baixar o mp3
+        </a></p>
+    </audio>
+</body>
+</html>
