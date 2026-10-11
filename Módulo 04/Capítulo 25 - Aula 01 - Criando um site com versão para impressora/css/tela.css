@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: lightgray;
+}
+
+header h1 {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+header ul {
+    list-style: none;
+    text-align: center;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+header ul li:hover {
+    background: darkgray;
+}
+
+main {
+    width: 1100px;
+    margin: auto;
+    padding: 10px;
+}
+
+main h2 {
+    padding: 20px 0px;
+}
